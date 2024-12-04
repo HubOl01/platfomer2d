@@ -1,7 +1,11 @@
 # Platformer 2d
 
-Игра будет платформер приключенческая Быстрый поиск в unity assets где можно выбирать по категории:https://assetstore.unity.com/?free=true&orderBy=1Персонажи:
+Игра будет платформер приключенческая 
 
+Быстрый поиск в unity assets где можно выбирать по категории:
+https://assetstore.unity.com/?free=true&orderBy=1Персонажи:
+
+Персонажи: 
 https://assetstore.unity.com/packages/2d/characters/sunny-land-103349 
 
 Предметы:
