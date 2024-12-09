@@ -238,6 +238,7 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ProjectBrowser
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -253,6 +254,8 @@ MonoBehaviour:
   - {fileID: 16}
   - {fileID: 17}
   - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &11
@@ -748,9 +751,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 49.716457, y: -2.9978971, z: -0.049786765}
+    m_Target: {x: 246.59875, y: -4.472428, z: 0.03830774}
     speed: 2
-    m_Value: {x: 49.716457, y: -2.9978971, z: -0.049786765}
+    m_Value: {x: 246.59875, y: -4.472428, z: 0.03830774}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -800,9 +803,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 7.532233
+    m_Target: 6.146441
     speed: 2
-    m_Value: 7.532233
+    m_Value: 6.146441
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -928,6 +931,7 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: -8981668796230847123, guid: 02b1ea4278e1d6641a652b9a8540fbac, type: 2}
     - {fileID: 5599361760361087604, guid: e4cff99bdcba65045bd79a993cb7a7cd, type: 2}
+    - {fileID: -4954858296616698596, guid: fe9995ba1fbd24541b318b4dacfd2868, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.53675675
       e01: 0
@@ -961,10 +965,26 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 02b1ea4278e1d6641a652b9a8540fbac, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: fe9995ba1fbd24541b318b4dacfd2868, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -8981668796230847123, guid: 02b1ea4278e1d6641a652b9a8540fbac, type: 2}
+  - m_Target: {fileID: -4954858296616698596, guid: fe9995ba1fbd24541b318b4dacfd2868, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1092,6 +1112,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
@@ -1229,7 +1251,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 311
+    m_CachedPref: -311
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
