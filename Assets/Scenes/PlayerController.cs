@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    public UnitStats unitStats;
     public AudioSource audioSource;
     public AudioClip runClip, meditationClip, painClip;
     public Vector3 startPosition;
@@ -31,7 +32,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         startPosition = transform.position;
-        currentHealth = maxHealth;
+        // currentHealth = maxHealth;
+        currentHealth = unitStats.maxHealth;
         UpdateHealthUI();
         UpdateScoreUI();
     }
@@ -73,16 +75,16 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
-            rb.velocity = new Vector2(moveInput * (moveSpeed + 10), rb.velocity.y);
+            rb.velocity = new Vector2(moveInput * (unitStats.movementSpeed/*moveSpeed*/ + 10), rb.velocity.y);
         }
         else
         {
-            rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(moveInput * unitStats.movementSpeed/*moveSpeed*/, rb.velocity.y);
         }
 
         if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumps)
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector2(rb.velocity.x, unitStats.jumpForce/*jumpForce*/);
             jumpCount++;
         }
 
