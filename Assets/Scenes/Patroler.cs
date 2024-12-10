@@ -23,7 +23,7 @@ public class Patroler : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;   
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()
@@ -31,7 +31,7 @@ public class Patroler : MonoBehaviour
         if (Vector2.Distance(transform.position, point.position) < positionOfPatrol && angry == false)
         {
             chill = true;
-        } 
+        }
 
         if (Vector2.Distance(transform.position, player.position) < stoppingDistance)
         {
