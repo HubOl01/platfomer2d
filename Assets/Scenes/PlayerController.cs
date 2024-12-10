@@ -111,6 +111,11 @@ public class PlayerController : MonoBehaviour
             StopSound();
             StartCoroutine(meditation());
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Resources.UnloadUnusedAssets();
+            SceneManager.LoadScene("Menu");
+        }
 
         if (rb.velocity.y == 0) jumpCount = 0; // Сброс прыжков при приземлении
     }
