@@ -1,5 +1,7 @@
 # Platformer 2d
 
+<img width="1512" alt="image" src="https://github.com/user-attachments/assets/b9a01923-e58b-475d-9325-2218f494aab3">
+
 Игра - платформер приключенческая 
 
 Быстрый поиск в unity assets где можно выбирать по категории:
