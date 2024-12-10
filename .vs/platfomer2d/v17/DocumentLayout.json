@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\danil\\platfomer2d\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A7C1A21A-6013-DA28-5610-5E80502DAD55}|Assembly-CSharp.csproj|c:\\users\\danil\\platfomer2d\\assets\\textmesh pro\\shaders\\tmp_sdf-mobile.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A7C1A21A-6013-DA28-5610-5E80502DAD55}|Assembly-CSharp.csproj|solutionrelative:assets\\textmesh pro\\shaders\\tmp_sdf-mobile.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TMP_SDF-Mobile.shader",
-              "DocumentMoniker": "C:\\Users\\danil\\platfomer2d\\Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile.shader",
-              "RelativeDocumentMoniker": "Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile.shader",
-              "ToolTip": "C:\\Users\\danil\\platfomer2d\\Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile.shader",
-              "RelativeToolTip": "Assets\\TextMesh Pro\\Shaders\\TMP_SDF-Mobile.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2024-12-10T14:27:27.022Z",
-              "EditorCaption": ""
             }
           ]
         }
